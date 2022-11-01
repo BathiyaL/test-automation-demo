@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UITestPlan" parallel="tests" thread-count="1" verbose="1">
+
+	<parameter name="baseURL" value="https://www.demo.bnz.co.nz/client" />
+	<parameter name="browser" value="chrome" />
+
+	<test name="TC21_VerifyUserCanNavigateToPayeesPageUsingTheNavigationMenu">		
+		<classes>
+			<class name="testscripts.ui.TC21_VerifyUserCanNavigateToPayeesPageUsingTheNavigationMenu" />
+		</classes>
+	</test>
+
+	<test name="TC22_VerifyVerifyUserCanAddNewPayee">
+		<classes>
+			<class name="testscripts.ui.TC22_VerifyVerifyUserCanAddNewPayee" />
+		</classes>
+	</test>
+
+	<test name="TC23_VerifyPayeeNameIsARequiredField">
+		<classes>
+			<class name="testscripts.ui.TC23_VerifyPayeeNameIsARequiredField" />
+		</classes>
+	</test>
+
+	<test name="TC24_VerifyThatPayeesCanBeSortedByName">
+		<classes>
+			<class name="testscripts.ui.TC24_VerifyThatPayeesCanBeSortedByName" />
+		</classes>
+	</test>
+
+	<test name="TC25_VerifyPaymentTransfer">
+		<classes>
+			<class name="testscripts.ui.TC25_VerifyPaymentTransfer" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITestPlan" parallel="tests" thread-count="1" verbose="1">
+
+	<parameter name="baseURL" value="https://jsonplaceholder.typicode.com" />
+
+	<test name="TC1_VerifyGETUsersRequest">
+		<classes>
+			<class name="testscripts.api.TC1_VerifyGETUsersRequest" />
+		</classes>
+	</test>
+
+	<test name="TC2_VerifyGETUserRequestById">
+		<classes>
+			<class name="testscripts.api.TC2_VerifyGETUserRequestById" />
+		</classes>
+	</test>
+	
+	<test name="TC3_VerifyPOSTUsersRequest">
+		<classes>
+			<class name="testscripts.api.TC3_VerifyPOSTUsersRequest" />
+		</classes>
+	</test>
+
+</suite>
