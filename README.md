@@ -13,7 +13,7 @@ Building & Running
 
 ### Run with Eclipse TestNG plugin
 
-1. To Run a single Test go to src/main/java/testscripts.api package and run the test (e.g. TC1_VerifyGETUsersRequest.java) as TestNG Test
+1. To Run a single Test go to src/main/java/testscripts/api package and run the test (e.g. TC1_VerifyGETUsersRequest.java) as TestNG Test
 
 2. To Run a TestNG xml go to src/main/java/testplans package and run the xml (e.g. UITestPlan.xml) as TestNG Suite
 
